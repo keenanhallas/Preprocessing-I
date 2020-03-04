@@ -275,6 +275,7 @@ body .section2 div {
 }
 body .section2 div h3 {
   margin-bottom: 2%;
+  text-align: center;
 }
 body footer nav {
   display: flex;
