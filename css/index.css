@@ -186,7 +186,7 @@ body header div {
   width: 100%;
 }
 body header div h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 1% 0%;
   text-align: center;
 }
@@ -213,7 +213,7 @@ body .section1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0px auto;
   border-radius: 5px;
 }
@@ -236,10 +236,11 @@ body .section1 .overviewDiv .workWithMe {
 body .section1 .overviewDiv .workWithMe h2 {
   color: rgba(255, 255, 255, 0.7);
   margin-top: 2%;
+  font-size: 3rem;
 }
 body .section1 .overviewDiv .workWithMe p {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   padding: 5%;
   text-align: justify;
 }
@@ -263,7 +264,7 @@ body .section2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0px auto;
   border-radius: 5px;
   margin-top: 2%;
@@ -292,10 +293,10 @@ body .section3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0px auto;
   border-radius: 5px;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 body .section3 .mainDiv {
   width: 49%;
@@ -306,6 +307,7 @@ body .section3 .mainDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 body .section3 .mainDiv .contactDiv {
   border: 1px solid;
@@ -334,6 +336,14 @@ body .section3 table th {
 body .section3 table td {
   padding: 2%;
   text-align: center;
+}
+body footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0px auto;
+  border-radius: 5px;
 }
 body footer nav {
   display: flex;
