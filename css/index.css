@@ -295,16 +295,45 @@ body .section3 {
   max-width: 900px;
   margin: 0px auto;
   border-radius: 5px;
+  margin-top: 2%;
+}
+body .section3 .mainDiv {
+  width: 49%;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 2%;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2%;
+}
+body .section3 .mainDiv .contactDiv {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 2%;
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: center;
+  font-family: 'Oxanium', cursive;
+  margin-top: 3%;
+}
+body .section3 h4 {
+  text-align: center;
 }
 body .section3 table {
   margin-top: 2%;
+  width: 99%;
 }
 body .section3 table th {
   font-size: 1.8rem;
   margin: 0px 5%;
+  padding: 2%;
+  text-align: center;
+}
+body .section3 table td {
+  padding: 2%;
+  text-align: center;
 }
 body footer nav {
   display: flex;
@@ -312,6 +341,7 @@ body footer nav {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  margin-top: 2%;
 }
 body footer nav a {
   font-size: 2rem;
