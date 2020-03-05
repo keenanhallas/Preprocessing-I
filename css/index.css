@@ -279,13 +279,14 @@ body .section2 div {
 body .section2 div h3 {
   margin-bottom: 2%;
   text-align: center;
+  font-size: 3rem;
 }
 body .section2 div ul {
   list-style-type: circle;
   padding: 0% 7%;
 }
 body .section2 div ul li {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-align: left;
   line-height: 1.75;
 }
@@ -314,7 +315,7 @@ body .section3 .mainDiv .contactDiv {
   border-radius: 5px;
   margin: 2%;
   padding: 2%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 60%;
   text-align: center;
   font-family: 'Oxanium', cursive;
