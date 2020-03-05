@@ -109,7 +109,7 @@ p, span, ul, li, table {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-	width: 100%;
+	width: 99%;
 }
 
 .anchorStyling() {
@@ -145,20 +145,33 @@ body {
 		margin: 0px auto;
 
 		div {
-			width: 100%;
+			width: 99%;
 
 			h1 {
 				font-size: 3.5rem;
 				margin: 1% 0%;
 				text-align: center;
+
+				@media (max-width: 767px){
+					font-size: 2.2rem;
+					margin-bottom: 2%;
+				}
 			}
 		}
 
 		nav {
 			.navStyling();
 
+			@media (max-width: 767px){
+				width: 80%;
+			}
+
 			a {
 				.anchorStyling();
+
+				@media (max-width: 767px){
+					font-size: 1.75rem;
+				}
 			}
 
 			a:hover {
@@ -175,7 +188,7 @@ body {
 			background-image: url(/images/background.jpg);
 			background-size: cover;
 			border-radius: 5px;
-			width: 100%;
+			width: 98%;
 			height: 75vh;
 
 			.workWithMe {
@@ -186,6 +199,11 @@ body {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+				justify-content: center;
+
+				@media (max-width: 767px){
+					width: 100%;
+				}
 				
 				h2 {
 					color: @transparentFont;
@@ -206,7 +224,7 @@ body {
 					text-align: center;
 					height: 13%;
 					border: 2px solid @transparentFont;;
-					font-size: 1.9rem;
+					font-size: 1.5rem;
 					padding: 5%;
 					font-family: @headingFont;
 					border-radius: 5px;
@@ -225,12 +243,22 @@ body {
 		.sectionStyling();
 		margin-top: 2%;
 
+		@media (max-width: 767px){
+			flex-direction: column;
+		}
+
 		div {
 			width: 49%;
 			font-size: 1.8rem;
 			padding: 1%;
 			text-align: justify;
 			line-height: 1.3;
+
+			@media (max-width: 767px){
+				width: 99%;
+				padding: 3% 5%;
+				margin-bottom: 0%;
+			}
 
 			h3 {
 				margin-bottom: 2%;
@@ -240,7 +268,7 @@ body {
 
 			ul {
 				list-style-type: circle;
-				padding: 0% 7%;
+				padding: 0% 4%;
 
 				li {
 					font-size: 1.5rem;
@@ -255,6 +283,11 @@ body {
 		.sectionStyling();
 		margin-top: 1%;
 
+		@media (max-width: 767px){
+			flex-direction: column;
+			width: 98%;
+		}
+
 		.mainDiv {
 			width: 49%;
 			border: 2px solid;
@@ -263,6 +296,11 @@ body {
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
+
+			@media (max-width: 767px){
+				width: 99%;
+				margin: 3% auto;
+			}
 
 			.contactDiv {
 				border: 1px solid;
