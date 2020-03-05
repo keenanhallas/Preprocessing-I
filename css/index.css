@@ -196,6 +196,11 @@ body header div h1 {
     margin-bottom: 2%;
   }
 }
+@media (max-width: 500px) {
+  body header div h1 {
+    font-size: 1.75rem;
+  }
+}
 body header nav {
   display: flex;
   flex-direction: row;
@@ -219,6 +224,11 @@ body header nav a {
 @media (max-width: 767px) {
   body header nav a {
     font-size: 1.75rem;
+  }
+}
+@media (max-width: 500px) {
+  body header nav a {
+    font-size: 1.5rem;
   }
 }
 body header nav a:hover {
