@@ -280,13 +280,17 @@ body .section1 .overviewDiv .workWithMe a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  height: 13%;
   border: 2px solid rgba(255, 255, 255, 0.7);
   font-size: 1.5rem;
-  padding: 5%;
+  padding: 4%;
   font-family: 'Major Mono Display', monospace;
   border-radius: 5px;
   line-height: 0.9;
+}
+@media (max-width: 767px) {
+  body .section1 .overviewDiv .workWithMe a {
+    padding: 3%;
+  }
 }
 body .section1 .overviewDiv .workWithMe a:hover {
   color: rgba(255, 255, 255);

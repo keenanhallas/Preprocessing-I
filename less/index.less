@@ -230,13 +230,16 @@ body {
 					text-decoration: none;
 					color: @transparentFont;
 					text-align: center;
-					height: 13%;
 					border: 2px solid @transparentFont;;
 					font-size: 1.5rem;
-					padding: 5%;
+					padding: 4%;
 					font-family: @headingFont;
 					border-radius: 5px;
 					line-height: .9;
+
+					@media (max-width: 767px){
+						padding: 3%;
+					}
 				}
 
 				a:hover {
